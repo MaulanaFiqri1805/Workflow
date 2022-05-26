@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="Ansonika" />
+    <title>Traveloka</title>
+
+    <!-- Favicons-->
+    <link rel="shortcut icon" href="img/trsveloka.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" type="image/x-icon" href="img/trsveloka.png" />
+    <link
+      rel="apple-touch-icon"
+      type="image/x-icon"
+      sizes="72x72"
+      href="img/trsveloka.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      type="image/x-icon"
+      sizes="114x114"
+      href="img/trsveloka.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      type="image/x-icon"
+      sizes="144x144"
+      href="img/trsveloka.png"
+    />
+
+    <!-- GOOGLE WEB FONT -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- BASE CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/vendors.css" rel="stylesheet" />
+
+    <!-- YOUR CUSTOM CSS -->
+    <link href="css/custom.css" rel="stylesheet" />
+
+    <link href="js/modernizr_slider.js" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div id="page">
+      <header class="header menu_fixed">
+        <div id="preloader"><div data-loader="circle-side"></div></div>
+        <!-- /Page Preload -->
+        <div id="logo">
+          <a href="index.html">
+            <img
+              src="img/travblue.png"
+              width="150"
+              height="36"
+              alt=""
+              class="logo_normal"
+            />
+            <img
+              src="img/travblue.png"
+              width="150"
+              height="36"
+              alt=""
+              class="logo_sticky"
+            />
+          </a>
+        </div>
+        <ul id="top_menu">
+          <li>
+            <a href="cart-1.html" class="cart-menu-btn" title="Cart"
+              ><strong>4</strong></a
+            >
+          </li>
+          <li>
+            <a href="#sign-in-dialog" id="sign-in" class="login" title="Sign In"
+              >Sign In</a
+            >
+          </li>
+          <li>
+            <a
+              href="wishlist.html"
+              class="wishlist_bt_top"
+              title="Your wishlist"
+              >Your wishlist</a
+            >
+          </li>
+        </ul>
+        <!-- /top_menu -->
+        <a href="#menu" class="btn_mobile">
+          <div class="hamburger hamburger--spin" id="hamburger">
+            <div class="hamburger-box">
+              <div class="hamburger-inner"></div>
+            </div>
+          </div>
+        </a>
+
+        <!--Navbar-->
+        <nav id="menu" class="main-menu">
+          <ul>
+            <li>
+              <span><a href="index.html">Beranda</a></span>
+            </li>
+            <li>
+              <span><a href="tours.html">Tur</a></span>
+            </li>
+            <li></li>
+            <li>
+              <span><a href="hotels.html">Hotel</a></span>
+            </li>
+            <li>
+              <span><a href="restaurant.html">Resto</a></span>
+            </li>
+            <li>
+              <span><a href="adventure.html">Xperience</a></span>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <!--Headig-->
+      <!-- /header -->
+
+      <main>
+        <section class="slider">
+          <div id="slider" class="flexslider">
+            <ul class="slides">
+              <li>
+                <img src="img/new/landing/Landing1a.png" alt="" />
+                <div class="meta">
+                  <h3>Experience Ha Giang - 3D2N Tour</h3>
+                  <div class="info">
+                    <p><strong>Vietnam</strong></p>
+                  </div>
+                  <a href="#0" class="btn_1">Baca Selengkapnya</a>
+                </div>
+              </li>
+              <li>
+                <img src="img/new/landing/Landing2a.png" alt="" />
+                <div class="meta">
+                  <h3>Grojogan Sewu</h3>
+                  <div class="info">
+                    <p>
+                      <strong
+                        >Indonesia</strong
+                      >
+                    </p>
+                  </div>
+                  <a href="#0" class="btn_1">Baca Selengkapnya</a>
+                </div>
+              </li>
+              <li>
+                <img src="img/new/landing/Landing3a.png" alt="" />
+                <div class="meta">
+                  <h3>Phi Phi, Maya Bay, Pileh Lagoon, Bamboo Islands (by Love Andaman)</h3>
+                  <div class="info">
+                    <p>
+                      <strong>Thailand</strong>
+                    </p>
+                  </div>
+                  <a href="#0" class="btn_1">Baca Selengkapnya</a>
+                </div>
+              </li>
+              <li>
+                <img src="img/new/landing/Landing4a.png" alt="" />
+                <div class="meta">
+                  <h3>Nami Island and Petite France Private Tour</h3>
+                  <div class="info">
+                    <p>
+                      <strong>South Korea</strong>
+                    </p>
+                  </div>
+                  <a href="#0" class="btn_1">Baca Selengkapnya</a>
+                </div>
+              </li>
+              <li>
+                <img src="img/new/landing/Landing5a.png" alt="" />
+                <div class="meta">
+                  <h3>Mount Fuji Pass</h3>
+                  <div class="info">
+                    <p>
+                      <strong>Japan</strong>
+                    </p>
+                  </div>
+                  <a href="#0" class="btn_1">Baca Selengkapnya</a>
+                </div>
+              </li>
+            </ul>
+            <div id="icon_drag_mobile"></div>
+          </div>
+          <div id="carousel_slider_wp">
+            <div id="carousel_slider" class="flexslider">
+              <ul class="slides">
+                <li>
+                  <img src="img/new/landing/Landing1b.png" alt="" />
+                  <div class="caption">
+                    <h3>
+                      Experience Ha Giang - 3D2N Tour <span>Vietnam</span>
+                    </h3>
+                    <small>Rp 750.126</small>
+                  </div>
+                </li>
+                <li>
+                  <img src="img/new/landing/Landing2b.png" alt="" />
+                  <div class="caption">
+                    <h3>Grojogan Sewu<span>Indonesia</span></h3>
+                    <small>Rp 475.000</small>
+                  </div>
+                </li>
+                <li>
+                  <img src="img/new/landing/Landing3b.png" alt="" />
+                  <div class="caption">
+                    <h3>Phi Phi, Maya Bay, Pileh Lagoon, Bamboo Islands<span>Thailand</span></h3>
+                    <small>Rp 522.600</small>
+                  </div>
+                </li>
+                <li>
+                  <img src="img/new/landing/Landing4b.png" alt="" />
+                  <div class="caption">
+                    <h3>Nami Island and Petite France Private Tour<span>South Korea</span></h3>
+                    <small>Rp 562.001</small>
+                  </div>
+                </li>
+                <li>
+                  <img src="img/new/landing/Landing5b.png" alt="" />
+                  <div class="caption">
+                    <h3>Mount Fuji Pass <span>Japan</span></h3>
+                    <small>Rp 458.299</small>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!--Pemesanan-->
+        <div class="search_container">
+          <div class="container">
+            <div class="col-lg-12">
+              <div class="row g-0 custom-search-input-2 inner">
+                <div class="col-lg-4">
+                  <div class="form-group">
+                    <input
+                      class="form-control"
+                      type="text"
+                      placeholder="Apa yang kamu cari..."
+                    />
+                    <i class="icon_search"></i>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="form-group">
+                    <input
+                      class="form-control"
+                      type="text"
+                      placeholder="Destinasi"
+                    />
+                    <i class="icon_pin_alt"></i>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <select class="wide">
+                    <option>Semua Kategori</option>
+                    <option>Hotel</option>
+                    <option>Resto</option>
+                    <option>Petualangan</option>
+                    <option>Tur</option>
+                  </select>
+                </div>
+                <div class="col-lg-2">
+                  <input type="submit" class="btn_search" value="Search" />
+                </div>
+              </div>
+              <!-- /row -->
+            </div>
+            <!-- /custom-search-input-2 -->
+          </div>
+        </div>
+        <!-- /search_container -->
+
+        <div class="container container-custom margin_60_0">
+          <div class="main_title_2">
+            <span><em></em></span>
+            <h2>Tujuan Populer</h2>
+            <p>Jelajahi destinasi tur yang telah dibuka kembali</p>
+          </div>
+          <div id="reccomended" class="owl-carousel owl-theme">
+            <div class="item">
+              <div class="box_grid">
+                <figure>
+                  <a href="#0" class="wish_bt"></a>
+                  <a href="#"
+                    ><img
+                      src="img/new/tur/Tur1.png"
+                      class="img-fluid"
+                      alt=""
+                      width="800"
+                      height="533"
+                    />
+                    <div class="read_more"><span>Baca Selengkapnya</span></div></a
+                  >
+                  <small>Java</small>
+                </figure>
+                <div class="wrapper">
+                  <h3><a href="#">Kawah Ijen Trip by Triptojava</a></h3>
+                  <p>
+                    Ajak teman Anda untuk mendaki ke Kawah Ijen yang dikenal sebagai salah satu titik dari dua api biru di dunia. Ikuti Open Trip Ijen Midnight Tour untuk perjalanan terjangkau dengan akomodasi layaknya tur private. Terletak di bagian timur pulau Jawa, Kawah Ijen merupakan bagian dari Gunung Ijen yang merupakan gunung berapi aktif di Jawa Timur...
+                  </p>
+                  <span class="price"
+                    >From <strong>Rp 250.000</strong> /per orang</span
+                  >
+                </div>
+                <ul>
+                  <li><i class="icon_clock_alt"></i> 1 day</li>
+                  <li>
+                    <div class="score">
+                      <span>Bagus<em>25 Ulasan</em></span
+                      ><strong>8.2</strong>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- /item -->
+            <div class="item">
+              <div class="box_grid">
+                <figure>
+                  <a href="#0" class="wish_bt"></a>
+                  <a href="#"
+                    ><img
+                      src="img/new/tur/Tur2.png"
+                      class="img-fluid"
+                      alt=""
+                      width="800"
+                      height="533"
+                    />
+                    <div class="read_more"><span>Baca Selengkapnya</span></div></a
+                  >
+                  <small>Java</small>
+                </figure>
+                <div class="wrapper">
+                  <h3><a href="#s">Golden Sunrise Gunung Bromo - Half-Day Tour
+                    Tours</a></h3>
+                  <p>
+                    Saat berada di Malang, pastikan untuk menyaksikan matahari terbit yang ajaib dari Gunung Bromo untuk pengalaman liburan yang luar biasa. Nikmati udara pegunungan yang sejuk dan nikmati pemandangan indah daratan di atas awan dari sudut pandang Anda sebelum menjelajahi permata lain di taman nasional. Pergilah ke Widodaren dan berpose seolah-olah Anda berada di antah berantah, lalu telusuri anak tangga yang mengarah ke kawah Bromo...
+                  </p>
+                  <span class="price"
+                    >From <strong>Rp 345.000</strong> /per Orang</span
+                  >
+                </div>
+                <ul>
+                  <li><i class="icon_clock_alt"></i> 12h </li>
+                  <li>
+                    <div class="score">
+                      <span>Bagus<em>141 Ulasan</em></span
+                      ><strong>8.7</strong>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- /item -->
+            <div class="item">
+              <div class="box_grid">
+                <figure>
+                  <a href="#0" class="wish_bt"></a>
+                  <a href=""
+                    ><img
+                      src="img/new/tur/Tur3.png"
+                      class="img-fluid"
+                      alt=""
+                      width="800"
+                      height="533"
+                    />
+                    <div class="read_more"><span>Baca Selengkapnya</span></div></a
+                  >
+                  <small>Java</small>
+                </figure>
+                <div class="wrapper">
+                  <h3><a href="">Wisata Snorkeling Gili Ketapang - 8-hour Tour</a></h3>
+                  <p>
+                    Ayo kabur sejenak dari kesibukan di kota untuk menikmati pesona Pulau Gili Ketapang bersama tur ini. Destinasi yang sempurna untuk berwisata pantai, pulau ini dikenal dengan spot snorkeling ikan badutnya yang dihiasi aneka terumbu karang berwarna-warni...
+                  </p>
+                  <span class="price"
+                    >From <strong>Rp 445.000</strong> /per Orang</span
+                  >
+                </div>
+                <ul>
+                  <li><i class="icon_clock_alt"></i> 8h </li>
+                  <li>
+                    <div class="score">
+                      <span>-<em>- Ulasan</em></span
+                      ><strong>-</strong>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- /item -->
+            <div class="item">
+              <div class="box_grid">
+                <figure>
+                  <a href="#0" class="wish_bt"></a>
+                  <a href="tour-detail.html"
+                    ><img
+                      src="img/new/tur/Tur4.png"
+                      class="img-fluid"
+                      alt=""
+                      width="800"
+                      height="533"
+                    />
+                    <div class="read_more"><span>Baca Selengkapnya</span></div></a
+                  >
+                  <small>Java</small>
+                </figure>
+                <div class="wrapper">
+                  <h3><a href="">Kampung Tematik Malang - 1-Day Tour</a></h3>
+                  <p>
+                    Berkunjung ke kota Malang tidak akan lengkap tanpa wisata sehari ke Kampung Tematik! Awali hari Anda dengan berkunjung ke Kampung 1000 Topeng yang akan memukau Anda dengan pajangan berbagai desain topeng Indonesia, besar dan kecil. Kemudian dilanjutkan ke Kampung Warna Warni, Kampung Tridi, dan Kampung Biru Arema, dimana kreativitas lokal terlihat melalui warna dan ilustrasi yang hidup di dinding kampung...
+                  </p>
+                  <span class="price"
+                    >From <strong>Rp 300.000</strong> /per orang</span
+                  >
+                </div>
+                <ul>
+                  <li><i class="icon_clock_alt"></i> 1 days</li>
+                  <li>
+                    <div class="score">
+                      <span>-<em>- Ulasan</em></span
+                      ><strong>-</strong>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- /item -->
+            <div class="item">
+              <div class="box_grid">
+                <figure>
+                  <a href="#0" class="wish_bt"></a>
+                  <a href=""
+                    ><img
+                      src="img/new/tur/Tur5.png"
+                      class="img-fluid"
+                      alt=""
+                      width="800"
+                      height="533"
+                    />
+                    <div class="read_more"><span>Baca Selengkapnya</span></div></a
+                  >
+                  <small>Java</small>
+                </figure>
+                <div class="wrapper">
+                  <h3><a href="">Tour Pantai Malang Selatan by bromonesia </a></h3>
+                  <p>
+                    Pantai Malang selatan memiliki daya tarik yang luar biasa untuk di kunjungi .paket tour kami menawarkan dengan fasilitas yang baik untuk perjalanan anda 
+                  </p>
+                  <span class="price"
+                    >From <strong>Rp 700.000</strong> /6 Orang</span
+                  >
+                </div>
+                <ul>
+                  <li><i class="icon_clock_alt"></i> 2h 30min</li>
+                  <li>
+                    <div class="score">
+                      <span>-<em>- Ulasan</em></span
+                      ><strong>-</strong>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- /item -->
+            </div>
+            <!-- /item -->
+          </div>
+          <!-- /carousel -->
+          <p class="btn_home_align">
+            <a href="" class="btn_1 rounded"
+              >Lihat Semua Tur</a
+            >
+          </p>
+          <hr class="large" />
+        </div>
+        <!-- /container -->
+
+        <div class="container container-custom margin_30_95">
+          <section class="add_bottom_45">
+            <div class="main_title_3">
+              <span><em></em></span>
+              <h2>Akomodasi dan Hotel Terpopuler</h2>
+              <p>Jangkau jutaan tamu dan maksimalkan bisnis Anda bersama kami.</p>
+            </div>
+            <div class="row">
+              <div class="col-xl-3 col-lg-6 col-md-6">
+                <a href="" class="grid_item">
+                  <figure>
+                    <div class="score"><strong>8.6</strong></div>
+                    <img src="img/new/hotel/Hotel1.png" class="img-fluid" alt="" />
+                    <div class="info">
+                      <div class="cat_star">
+                        <i class="icon_star"></i><i class="icon_star"></i
+                        ><i class="icon_star"></i><i class="icon_star"></i>
+                      </div>
+                      <h3>The Gaia Hotel Bandung</h3>
+                    </div>
+                  </figure>
+                </a>
+              </div>
+              <!-- /grid_item -->
+              <div class="col-xl-3 col-lg-6 col-md-6">
+                <a href="hotel-detail.html" class="grid_item">
+                  <figure>
+                    <div class="score"><strong>8.7</strong></div>
+                    <img src="img/new/hotel/Hotel2.png" class="img-fluid" alt="" />
+                    <div class="info">
+                      <div class="cat_star">
+                        <i class="icon_star"></i><i class="icon_star"></i
+                        ><i class="icon_star"></i><i class="icon_star"></i>
+                      </div>
+                      <h3>Hotel Mulia Senayan, Jakarta</h3>
+                    </div>
+                  </figure>
+                </a>
+              </div>
+              <!-- /grid_item -->
+              <div class="col-xl-3 col-lg-6 col-md-6">
+                <a href="hotel-detail.html" class="grid_item">
+                  <figure>
+                    <div class="score"><strong>8.8</strong></div>
+                    <img src="img/new/hotel/Hotel3.png" class="img-fluid" alt="" />
+                    <div class="info">
+                      <div class="cat_star">
+                        <i class="icon_star"></i><i class="icon_star"></i
+                        ><i class="icon_star"></i><i class="icon_star"></i>
+                      </div>
+                      <h3>Hilton Bali Resort</h3>
+                    </div>
+                  </figure>
+                </a>
+              </div>
+              <!-- /grid_item -->
+              <div class="col-xl-3 col-lg-6 col-md-6">
+                <a href="hotel-detail.html" class="grid_item">
+                  <figure>
+                    <div class="score"><strong>7.9</strong></div>
+                    <img src="img/new/hotel/Hotel4.png" class="img-fluid" alt="" />
+                    <div class="info">
+                      <div class="cat_star">
+                        <i class="icon_star"></i><i class="icon_star"></i
+                        ><i class="icon_star"></i><i class="icon_star"></i>
+                      </div>
+                      <h3>Sahid Raya Hotel & Convention Yogyakarta</h3>
+                    </div>
+                  </figure>
+                </a>
+              </div>
+              <!-- /grid_item -->
+            </div>
+            <!-- /row -->
+            <a href="hotels-grid-isotope.html"
+              ><strong>Lihat Semua (157) <i class="arrow_carrot-right"></i></strong
+            ></a>
+          </section>
+          <!-- /section -->
+
+          <section class="add_bottom_45">
+            <div class="main_title_3">
+              <span><em></em></span>
+              <h2>Restoran Terpopuler</h2>
+              <p>Jelajahi dan temukan tempat makan lezat di sekitar Anda.</p>
+            </div>
+            <div class="row">
+              <div class="col-xl-3 col-lg-6 col-md-6">
+                <a href="restaurant-detail.html" class="grid_item">
+                  <figure>
+                    <div class="score"><strong>4.1</strong></div>
+                    <img src="img/new/restaurant/resto1.png" class="img-fluid" alt="" />
+                    <div class="info">
+                      <h3>Bengawan Restaurant</h3>
+                    </div>
+                  </figure>
+                </a>
+              </div>
+              <!-- /grid_item -->
+              <div class="col-xl-3 col-lg-6 col-md-6">
+                <a href="restaurant-detail.html" class="grid_item">
+                  <figure>
+                    <div class="score"><strong>4.7</strong></div>
+                    <img src="img/new/restaurant/resto2.png" class="img-fluid" alt="" />
+                    <div class="info">
+                      <h3>Namaaz Dining</h3>
+                    </div>
+                  </figure>
+                </a>
+              </div>
+              <!-- /grid_item -->
+              <div class="col-xl-3 col-lg-6 col-md-6">
+                <a href="restaurant-detail.html" class="grid_item">
+                  <figure>
+                    <div class="score"><strong>5</strong></div>
+                    <img src="img/new/restaurant/resto3.png" class="img-fluid" alt="" />
+                    <div class="info">
+                      <h3>Pizza Burger Liquor - Ubud</h3>
+                    </div>
+                  </figure>
+                </a>
+              </div>
+              <!-- /grid_item -->
+              <div class="col-xl-3 col-lg-6 col-md-6">
+                <a href="restaurant-detail.html" class="grid_item">
+                  <figure>
+                    <div class="score"><strong>5</strong></div>
+                    <img src="img/new/restaurant/resto4.png" class="img-fluid" alt="" />
+                    <div class="info">
+                      <h3>The Kelusa Restaurant - Samsara Ubud</h3>
+                    </div>
+                  </figure>
+                </a>
+              </div>
+              <!-- /grid_item -->
+            </div>
+            <!-- /row -->
+            <a href="restaurants-grid-isotope.html"
+              ><strong>Lihat Semua (157) <i class="arrow_carrot-right"></i></strong
+            ></a>
+          </section>
+          <!-- /section -->
+
+          <div class="banner mb-0">
+            <div
+              class="wrapper d-flex align-items-center opacity-mask"
+              data-opacity-mask="rgba(0, 0, 0, 0.3)"
+            >
+              <div>
+                <small>Xperience</small>
+                <h3>Jelajahi Kategori<br /> di Xperience</h3>
+                <p>Buat hari Anda semakin berwarna dengan aktivitas seru ini!</p>
+                <a href="adventure.html" class="btn_1">Baca Selengkapnya</a>
+              </div>
+            </div>
+            <!-- /wrapper -->
+          </div>
+          <!-- /banner -->
+        </div>
+        <!-- /container -->
+
+        <div class="bg_color_1">
+          <div class="container margin_80_55">
+            <div class="main_title_2">
+              <span><em></em></span>
+              <h3>Artikel Terbaru</h3>
+              <p>komendasi artikel untuk bepergian nanti</p>
+            </div>
+            <div class="row">
+              <div class="col-lg-6">
+                <a class="box_news" href="#0">
+                  <figure>
+                    <img src="img/new/news/Blog1.png" alt="" />
+                    <figcaption><strong>20</strong>Feb</figcaption>
+                  </figure>
+                  <ul>
+                    <li>
+                      Traveloka Accomodation</li>
+                    <li>20 Feb 2021 </li>
+                  </ul>
+                  <h4>Pulau Paling Indah di Indonesia</h4>
+                  <p>
+                    Indonesia adalah negara kepulauan terbesar di dunia, dengan jumlah pulaunya sebanyak 17.504. Indonesia juga merupakan negara yang kaya akan keanekaragaman hayati serta panorama alam yang indah, baik pegunungan maupun lautan. Tak heran, Indonesia menjadi tujuan wisata bagi para pendatang, baik lokal maupun mancanegara....
+                  </p>
+                </a>
+              </div>
+              <!-- /box_news -->
+              <div class="col-lg-6">
+                <a class="box_news" href="#0">
+                  <figure>
+                    <img src="img/new/news/Blog2.png" alt="" />
+                    <figcaption><strong>20</strong>May</figcaption>
+                  </figure>
+                  <ul>
+                    <li>Anna Cendana</li>
+                    <li>20 May 2022</li>
+                  </ul>
+                  <h4>8 Tips Traveling Low Budget ala Backpacker ke Turki</h4>
+                  <p>
+                    Liburan ke Turki ada di bucket list kamu? Well, kamu bisa wujudkan mimpi traveling itu dengan menjadi backpacker ke Turki. Memang, ada banyak destinasi wisata keren yang bisa kamu kunjungi ketika berkunjung ke negara ini. Sebut saja Cappadocia yang terkenal dengan balon udaranya atau masjid Hagia Sophia yang punya gaya arsitektur khas Romawi...
+                  </p>
+                </a>
+              </div>
+              <!-- /box_news -->
+              <div class="col-lg-6">
+                <a class="box_news" href="#0">
+                  <figure>
+                    <img src="img/new/news/Blog3.png" alt="" />
+                    <figcaption><strong>06</strong>Oct</figcaption>
+                  </figure>
+                  <ul>
+                    <li>Markus Yohannes
+                    </li>
+                    <li>06 Oct 2020</li>
+                  </ul>
+                  <h4>8 Rekomendasi Hotel dengan Bathtub di Medan</h4>
+                  <p>
+                    Hotel dengan Bathtub di Medan - Pesona kota Medan seakan nggak ada habisnya. Mulai dari wisata alam, wisata kuliner, pusat oleh-oleh, tempat nongkrong, hingga pusat perbelanjaan bisa kamu nikmati di kota ini. Nggak heran jika pengunjung yang berwisata ke Medan selalu bertambah setiap tahunnya...
+                  </p>
+                </a>
+              </div>
+              <!-- /box_news -->
+              <div class="col-lg-6">
+                <a class="box_news" href="#0">
+                  <figure>
+                    <img src="img/new/news/Blog4.png" alt="" />
+                    <figcaption><strong>30</strong>Sep</figcaption>
+                  </figure>
+                  <ul>
+                    <li>Markus Yohannes</li>
+                    <li>30 Sep 2020</li>
+                  </ul>
+                  <h4>7 Destinasi Wisata Ramah Anak di Indonesia Terfavorit</h4>
+                  <p>
+                    Wisata Ramah Anak - Merencanakan traveling bersama si kecil bisa jadi pekerjaan yang susah-susah gampang. Apalagi, tak semua destinasi wisata tentunya memiliki fasilitas yang ramah anak atau menyediakan wahana-wahana rekreasi yang digemari anak-anak...
+                  </p>
+                </a>
+              </div>
+              <!-- /box_news -->
+            </div>
+            <!-- /row -->
+            <p class="btn_home_align">
+              <a href="blog.html" class="btn_1 rounded">Liat Semua Artikel</a>
+            </p>
+          </div>
+          <!-- /container -->
+        </div>
+        <!-- /bg_color_1 -->
+
+        <div class="call_section">
+          <div class="container clearfix">
+            <div
+              class="col-lg-5 col-md-6 float-end wow position-relative"
+              data-wow-offset="250"
+            >
+              <div class="block-reveal">
+                <div class="block-vertical"></div>
+                <div class="box_1">
+                  <h3>Tentang Traveloka</h3>
+                  <p>
+
+                    Traveloka adalah perusahaan teknologi terkemuka di Asia Tenggara yang menyediakan akses bagi masyarakat untuk menemukan dan memesan berbagai layanan transportasi, akomodasi, aktivitas dan gaya hidup, serta keuangan. Sebagai lifestyle super app di Asia Tenggara, Traveloka memiliki portofolio produk yang lengkap meliputi layanan transportasi seperti tiket pesawat, bus, kereta api, sewa mobil, antar-jemput bandara, serta berbagai pilihan akomodasi, termasuk hotel, apartemen, guest house, homestay, resort, dan villa.
+                  </p>
+                  <a href="about.html" class="btn_1 rounded">Baca Selengkapnya</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--/call_section-->
+      </main>
+      <!-- /main -->
+
+      <footer>
+        <div class="container margin_60_35">
+          <div class="row">
+            <div class="col-lg-5 col-md-12 pe-5">
+              <p><img src="img/travblue.png" width="150" height="36" alt="" /></p>
+              <p>
+                Bepergian mungkin menjadi kebutuhan penting bagi semua orang. Ini adalah hadiah untuk semua kerja keras Anda, dan Anda akhirnya dapat mengambil waktu istirahat untuk berhubungan kembali dengan diri sendiri. Meskipun bepergian kedengarannya bermanfaat dan positif, itu bisa merepotkan ketika berurusan dengan dokumen dan rencana perjalanan. Merencanakan perjalanan santai mengharuskan Anda menyisihkan waktu dan tenaga. Sekarang, bayangkan melakukan semua dokumen dan merencanakan perjalanan bisnis dengan banyak peserta.
+              </p>
+              <div class="follow_us">
+                <ul>
+                  <li>Follow kami di</li>
+                  <li>
+                    <a href="#0"><i class="ti-facebook"></i></a>
+                  </li>
+                  <li>
+                    <a href="#0"><i class="ti-twitter-alt"></i></a>
+                  </li>
+                  <li>
+                    <a href="#0"><i class="ti-google"></i></a>
+                  </li>
+                  <li>
+                    <a href="#0"><i class="ti-instagram"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 ms-lg-auto">
+              <h5>Tentang Traveloka</h5>
+              <ul class="links">
+                <li><a href="about.html">Tentang Traveloka</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="blog.html">Artikel</a></li>
+                <li><a href="contacts.html">Kontak</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <h5>Hubungi Kami</h5>
+              <ul class="contacts">
+                <li>
+                  <a href="tel://61280932400"
+                    ><i class="ti-mobile"></i> +62853-1111-1010</a
+                  >
+                </li>
+                <li>
+                  <a href="mailto:info@Panagea.com"
+                    ><i class="ti-email"></i>cs@traveloka.com </a
+                  >
+                </li>
+              </ul>
+              <!-- <div id="newsletter">
+                <h6>Newsletter</h6>
+                <div id="message-newsletter"></div>
+                <form
+                  method="post"
+                  action="assets/newsletter.php"
+                  name="newsletter_form"
+                  id="newsletter_form"
+                >
+                  <div class="form-group">
+                    <input
+                      type="email"
+                      name="email_newsletter"
+                      id="email_newsletter"
+                      class="form-control"
+                      placeholder="Your email"
+                    />
+                    <input
+                      type="submit"
+                      value="Submit"
+                      id="submit-newsletter"
+                    />
+                  </div>
+                </form>
+              </div> -->
+            </div>
+          </div>
+          <!--/row-->
+          <hr />
+          <div class="row">
+            <div class="col-lg-6">
+              <ul id="footer-selector">
+                <li>
+                  <div class="styled-select" id="lang-selector">
+                    <select>
+                      <option value="English" >English</option>
+                      <option value="Indonesian" selected>Indonesia</option>
+                    </select>
+                  </div>
+                </li>
+                <li>
+                  <div class="styled-select" id="currency-selector">
+                    <select>
+                      <option value="US Dollars" >US Dollars</option>
+                      <option value="Rupiah" selected>Rupiah</option>
+                    </select>
+                  </div>
+                </li>
+                <li><img src="img/cards_all.svg" alt="" /></li>
+              </ul>
+            </div>
+            <div class="col-lg-6">
+              <ul id="additional_links">
+                <li><a href="#0">Terms and conditions</a></li>
+                <li><a href="#0">Privacy</a></li>
+                <li><span>© Traveloka</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!--/footer-->
+    </div>
+    <!-- page -->
+
+    <!-- Sign In Popup -->
+    <div id="sign-in-dialog" class="zoom-anim-dialog mfp-hide">
+      <div class="small-dialog-header">
+        <h3>Sign In</h3>
+      </div>
+      <form>
+        <div class="sign-in-wrapper">
+          <a href="#0" class="social_bt facebook">Login with Facebook</a>
+          <a href="#0" class="social_bt google">Login with Google</a>
+          <div class="divider"><span>Or</span></div>
+          <div class="form-group">
+            <label>Email</label>
+            <input type="email" class="form-control" name="email" id="email" />
+            <i class="icon_mail_alt"></i>
+          </div>
+          <div class="form-group">
+            <label>Password</label>
+            <input
+              type="password"
+              class="form-control"
+              name="password"
+              id="password"
+              value=""
+            />
+            <i class="icon_lock_alt"></i>
+          </div>
+          <div class="clearfix add_bottom_15">
+            <div class="checkboxes float-start">
+              <label class="container_check"
+                >Remember me
+                <input type="checkbox" />
+                <span class="checkmark"></span>
+              </label>
+            </div>
+            <div class="float-end mt-1">
+              <a id="forgot" href="javascript:void(0);">Forgot Password?</a>
+            </div>
+          </div>
+          <div class="text-center">
+            <input type="submit" value="Log In" class="btn_1 full-width" />
+          </div>
+          <div class="text-center">
+            Don’t have an account? <a href="register.html">Sign up</a>
+          </div>
+          <div id="forgot_pw">
+            <div class="form-group">
+              <label>Please confirm login email below</label>
+              <input
+                type="email"
+                class="form-control"
+                name="email_forgot"
+                id="email_forgot"
+              />
+              <i class="icon_mail_alt"></i>
+            </div>
+            <p>
+              You will receive an email containing a link allowing you to reset
+              your password to a new preferred one.
+            </p>
+            <div class="text-center">
+              <input type="submit" value="Reset Password" class="btn_1" />
+            </div>
+          </div>
+        </div>
+      </form>
+      <!--form -->
+    </div>
+    <!-- /Sign In Popup -->
+
+    <div id="toTop"></div>
+    <!-- Back to top button -->
+
+    <!-- COMMON SCRIPTS -->
+    <script src="js/common_scripts.js"></script>
+    <script src="js/main.js"></script>
+    <script src="assets/validate.js"></script>
+
+    <!-- FlexSlider -->
+    <script defer src="js/jquery.flexslider.js"></script>
+    <script>
+      $(window).on("load", function () {
+        "use strict";
+        $("#carousel_slider").flexslider({
+          animation: "slide",
+          controlNav: false,
+          animationLoop: false,
+          slideshow: false,
+          itemWidth: 280,
+          itemMargin: 25,
+          asNavFor: "#slider",
+        });
+        $("#slider").flexslider({
+          animation: "fade",
+          controlNav: false,
+          animationLoop: false,
+          slideshow: false,
+          sync: "#carousel_slider",
+          start: function (slider) {
+            $("body").removeClass("loading");
+          },
+        });
+      });
+    </script>
+  </body>
+</html>
